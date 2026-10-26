@@ -297,4 +297,3 @@ task-management-api/
 * **Jenkins stage `Integration Tests`** calls `failsafe:integration-test failsafe:verify` directly and relies on the classes compiled in the earlier stages of the same build.
 * **Mockito on newer JDKs** may print a warning about dynamic agent loading; it is harmless.
 * **Limitations**: no authentication, no pagination, data is not persisted across restarts (in-memory H2), and no coverage reporting by design.
-# task-management-api-testing-cicd
